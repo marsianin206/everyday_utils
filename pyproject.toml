@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "everyday-utils"
+version = "0.1.0"
+authors = [{name = "Ваше Имя", email = "ваш@email.com"}]
+description = "Набор полезных утилит для повседневного программирования на Python"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/everyday-utils"  # Опционально: замените на ваш репозиторий
+Repository = "https://github.com/yourusername/everyday-utils"
